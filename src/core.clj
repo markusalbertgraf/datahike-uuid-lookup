@@ -5,7 +5,7 @@
 (def counter (atom 0))
 (def error-count (atom 0))
 
-(def db-uri "datahike:file:///usr/home/markus/Spielwiese/demo-db1")
+(def db-uri "datahike:file:///tmp/demo-db1")
 
 (d/delete-database db-uri)
 (d/create-database db-uri)
